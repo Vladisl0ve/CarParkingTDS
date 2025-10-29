@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarParkingTDS", "CarParkingTDS\CarParkingTDS.csproj", "{045FA6AB-7675-D63D-3205-0DE55012F459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarParkingTDS.Tests", "CarParkingTDS.Tests\CarParkingTDS.Tests.csproj", "{B376FB67-613C-425D-BEE9-ACE9B1C39FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{045FA6AB-7675-D63D-3205-0DE55012F459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045FA6AB-7675-D63D-3205-0DE55012F459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045FA6AB-7675-D63D-3205-0DE55012F459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045FA6AB-7675-D63D-3205-0DE55012F459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B376FB67-613C-425D-BEE9-ACE9B1C39FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B376FB67-613C-425D-BEE9-ACE9B1C39FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B376FB67-613C-425D-BEE9-ACE9B1C39FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B376FB67-613C-425D-BEE9-ACE9B1C39FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB930E18-1738-4B0E-A117-0CF2EAA4D876}
+	EndGlobalSection
+EndGlobal

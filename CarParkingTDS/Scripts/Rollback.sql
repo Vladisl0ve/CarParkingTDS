@@ -1,0 +1,16 @@
+USE master;
+GO
+
+
+IF DB_ID('TDS_ParkingDB') IS NOT NULL
+BEGIN
+    ALTER DATABASE TDS_ParkingDB SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE TDS_ParkingDB;
+END
+GO
+
+IF EXISTS (SELECT * FROM sys.server_principals WHERE name = 'ParkingSa')
+BEGIN
+    DROP LOGIN ParkingSa;
+END
+GO
